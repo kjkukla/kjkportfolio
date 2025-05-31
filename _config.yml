@@ -1,9 +1,7 @@
 title: "Kevin Kukla · Portfolio"
 description: "Instructional Design · Technical Writing · eLearning"
+
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
-
-author:
-  name: "Kevin Kukla"
+  - jekyll-include-cache   # ← add this
