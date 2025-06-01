@@ -4,4 +4,24 @@ description: "Instructional Design · Technical Writing · eLearning"
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
-  - jekyll-include-cache   # ← add this
+  - jekyll-include-cache          # already here
+
+# ----------  add below  ----------
+collections:
+  projects:
+    output: true                  # each item gets its own page
+    permalink: /projects/:path/   # pretty URLs
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single              # clean one-column layout
+      author_profile: false
+# ----------  add above  ----------
+
+# (optional) show About + Portfolio in top nav
+header_pages:
+  - about.md
+  - projects/index.md
