@@ -1,12 +1,3 @@
----
-layout: archive
-title: "Portfolio"
-permalink: /projects/
-author_profile: false
-entries_layout: grid
-collection: projects       # ← this line is the key
----
-
 
 ---
 title: "Prosumer NAS & Home-Network Troubleshooting Guide"
