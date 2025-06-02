@@ -1,4 +1,14 @@
 ---
+layout: archive
+title: "Portfolio"
+permalink: /projects/
+author_profile: false
+entries_layout: grid
+collection: projects       # ← this line is the key
+---
+
+
+---
 title: "Prosumer NAS & Home-Network Troubleshooting Guide"
 excerpt: "15-minute flowchart + step-by-step tasks for TrueNAS admins."
 cover_image: /assets/images/network-foundations/cover.png   # we’ll upload next
