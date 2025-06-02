@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Hi, I'm Kevin — I design learning experiences."
+title: "Welcome to Kevin Kukla's Portfolio Site — I design learning experiences."
 subtitle: "15 years teaching physics & philosophy · 5 years crafting technical docs"
 header:
   overlay_color: "#000"
