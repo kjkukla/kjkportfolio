@@ -3,9 +3,8 @@ description: "Instructional Design · Technical Writing · eLearning"
 
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
-  - jekyll-feed
+  - jekyll-feed 
   - jekyll-include-cache
-
 
 # ----------  add below  ----------
 collections:
