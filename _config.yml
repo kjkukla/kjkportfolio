@@ -10,7 +10,7 @@ plugins:
 collections:
   projects:
     output: true                  # each item gets its own page
-    permalink: /_projects/:path/   # pretty URLs
+    permalink: /projects/:path/   # pretty URLs
 
 defaults:
   - scope:
