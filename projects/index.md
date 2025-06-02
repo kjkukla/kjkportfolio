@@ -4,7 +4,7 @@ title: "Portfolio"
 permalink: /projects/
 author_profile: false
 entries_layout: grid
-collection: projects       # ← this line is the key
+collection: projects
 ---
 
 
