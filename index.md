@@ -1,9 +1,5 @@
 ---
-layout: collection
-title: "Portfolio"
-permalink: /projects/
-collection: projects
-entries_layout: grid
+layout: splash
+title: "Hi, I'm Kevin — I design learning experiences."
+subtitle: "Instructional Design · Technical Writing"
 ---
-
-Welcome! This site will showcase selected projects in instructional design and technical writing. Check back soon for live demos.
