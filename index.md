@@ -1,10 +1,9 @@
 ---
-layout: splash
-title: "Welcome to Kevin Kukla's Portfolio Site — I design learning experiences."
-subtitle: "15 years teaching physics & philosophy · 5 years crafting technical docs"
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.4"
+layout: collection
+title: "Portfolio"
+permalink: /projects/
+collection: projects
+entries_layout: grid
 ---
 
 Welcome! This site will showcase selected projects in instructional design and technical writing. Check back soon for live demos.
