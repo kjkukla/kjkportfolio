@@ -10,7 +10,7 @@ header:
 tags: [Technical Writing, Logic, Quick Reference]
 
 # ← the key change: singular `link:`
-link: /assets/docs/QRG.pdf                    # make sure the PDF lives here
+link: https://kjkukla.github.io/kjkportfolio/assets/docs/QRG.pdf
 
 layout: single
 ---
