@@ -4,7 +4,6 @@ palette:
   accent:    "#C62828"   # Links & active nav items
   neutral:   "#F5F7FA"   # Card backgrounds
   background:"#FFFFFF"   # Page background
-logo: "/assets/images/kk-logo.svg"
 
 # Optional social icons (Font Awesome names)
 social:
