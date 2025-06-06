@@ -1,22 +1,20 @@
 ---
 layout: splash
-title:  "Hi, I'm Kevin — I design learning experiences."
-subtitle: "Instructional Design · Technical Writing"
+title:    "Kevin Kukla"
+subtitle: "Instructional Design · Technical Writing · eLearning"
+
+# ── Header settings ───────────────────────────────────────────────
 header:
-  overlay_image: /assets/images/cover.png   # create this path
-  overlay_filter: 0.35
+  overlay_color: "#e5e5e5"   # light-gray fill
+  overlay_filter: 0.0        # 0 = fully opaque; adjust if you want tint
   actions:
     - label: "View Portfolio ▶︎"
-      url:  "/projects/"
-excerpt: |
-  I design learning experiences that turn complex tech into crystal-clear
-  stories. Scroll to see six recent projects.
-feature_row:
-  - image_path: /assets/images/network-thumb.png
-    alt: "NAS troubleshooting module"
-    title: "Home-Network Troubleshooting Guide"
-    url: "/projects/network-foundations/"
-    btn_label: "Open"
+      url:   "/projects/"
+      class: "btn--primary"
+
+# No feature_row, no banner image
 ---
-{% include feature_row id="feature_row" %}
+
+<!-- Optional short intro paragraph — delete if you prefer a blank page -->
+Welcome — click the button to see selected projects.
 
