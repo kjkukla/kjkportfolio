@@ -2,7 +2,7 @@
 title:  "Quick Reference Guide to Arguments, Logic & Critical Thinking"
 excerpt: "Two-page laminated cheat-sheet on validity, soundness, logical forms, and critical-thinking cues."
 date:   2024-12-10
-teaser: /assets/images/qrg-thumb.png          # remove if you don’t need a grid image
+teaser: /assets/docs/qrg-thumb.png          # remove if you don’t need a grid image
 
 header:
   overlay_color: "#E5E5E5"                    # plain gray banner
