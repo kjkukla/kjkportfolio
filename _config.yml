@@ -2,6 +2,9 @@
 #  _config.yml  ·  Minimal Mistakes + GitHub Pages · Kevin Kukla
 # ================================================================
 
+minimal_mistakes_skin: "air"    # or "aqua", "contrast", "dark", "dirt",
+                                # "mint", "neon", "plum", "sunrise"
+
 # --- Site metadata ------------------------------------------------
 title: "Kevin Kukla · Portfolio"
 description: "Instructional Design · Technical Writing · eLearning"
