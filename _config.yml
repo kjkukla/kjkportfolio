@@ -18,7 +18,7 @@ plugins:
   - jekyll-include-cache
 #---Skin color-----------------------------------------------------
 
-inimal_mistakes_skin: "mint"    # or "aqua", "contrast", "dark", "dirt",
+minimal_mistakes_skin: "mint"    # or "aqua", "contrast", "dark", "dirt",
                                 # "mint", "neon", "plum", "sunrise"
 # _data/ui-theme.yml
 palette:
