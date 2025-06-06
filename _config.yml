@@ -1,49 +1,68 @@
-# ================================================================
+# =====================================================================
 #  _config.yml  ·  Minimal Mistakes + GitHub Pages · Kevin Kukla
-# ================================================================
+# =====================================================================
 
-# --- Site metadata ------------------------------------------------
-title: "Kevin Kukla · Portfolio"
-description: "Instructional Design · Technical Writing · eLearning"
+#######################################################################
+# 1 · Global site metadata
+#######################################################################
+title:        "Kevin Kukla · Portfolio"
+description:  "Instructional Design · Technical Writing · eLearning"
 
-# ↓↓↓ Step 1: tell Jekyll where the site will live on GitHub Pages
-url: "https://kjkukla.github.io"   # always your GitHub Pages root
-baseurl: "/kjkportfolio"           # repo name *with* leading slash
-                                    # (leave empty "" in a personal-site repo)
+# Where GitHub Pages will publish the site.
+# ‣ If this repo is *kjkportfolio*, keep baseurl exactly as below.
+# ‣ If you later move everything into  <username>.github.io, change
+#   baseurl to "" (empty string).
+url:      "https://kjkukla.github.io"   # GitHub Pages root (never slash-ending)
+baseurl:  "/kjkportfolio"               # repo name *with* leading slash
 
-# --- Theme and plugins -------------------------------------------
-remote_theme: "mmistakes/minimal-mistakes"
+#######################################################################
+# 2 · Theme settings
+#######################################################################
+remote_theme: "mmistakes/minimal-mistakes"   # official upstream theme
+minimal_mistakes_skin: "dirt"                # built-in color palette
+
+# Enable the JavaScript skin switcher (adds light/dark toggle in nav bar)
+# skin_switcher: true                        # ← optional
+
+#######################################################################
+# 3 · GitHub-Pages–allowed plugins
+#######################################################################
 plugins:
   - jekyll-feed
   - jekyll-include-cache
-#---Skin color-----------------------------------------------------
 
-minimal_mistakes_skin: "dirt"    # or "aqua", "contrast", "dark", "dirt",
-                                # "mint", "neon", "plum", "sunrise"
-
-# Optional social icons (Font Awesome names)
-social:
-  - platform: linkedin
-    url: "https://linkedin.com/in/kevin-kukla"
-  - platform: github
-    url: "https://github.com/kjkukla"
-
-
-# --- Custom collections ------------------------------------------
+#######################################################################
+# 4 · Collections  (one Markdown file per project)
+#######################################################################
 collections:
   projects:
-    output: true                  # each item gets its own page
-    permalink: /projects/:path/   # pretty URLs
+    output:    true                 # each item gets its own page
+    permalink: /projects/:path/     # pretty URLs
 
+# Default front-matter for everything inside the `projects` collection
 defaults:
   - scope:
-      path: ""                    # applies to every file in the repo
+      path: ""                      # match every file
       type: projects
     values:
-      layout: single              # clean one-column layout
+      layout: single                # full-width page
       author_profile: false
 
-# --- Navigation ---------------------------------------------------
+#######################################################################
+# 5 · Navigation links that appear in the top bar
+#######################################################################
 header_pages:
   - about.md
   - projects/index.md
+
+#######################################################################
+# 6 · Build options (safe defaults — rarely need edits)
+#######################################################################
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+# Incremental build speeds local `jekyll serve` but is ignored by GitHub
+incremental: true
+#######################################################################
+# End
+#######################################################################
