@@ -20,13 +20,6 @@ plugins:
 
 minimal_mistakes_skin: "mint"    # or "aqua", "contrast", "dark", "dirt",
                                 # "mint", "neon", "plum", "sunrise"
-# _data/ui-theme.yml
-palette:
-  primary:   "#002F6C"   # Higher-level headings & buttons
-  accent:    "#C62828"   # Links & active nav items
-  neutral:   "#F5F7FA"   # Card backgrounds
-  background:"#FFFFFF"   # Page background
-logo: "/assets/images/kk-logo.svg"
 
 # Optional social icons (Font Awesome names)
 social:
