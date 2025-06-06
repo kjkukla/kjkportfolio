@@ -1,12 +1,23 @@
+# ================================================================
+#  _config.yml  ·  Minimal Mistakes + GitHub Pages · Kevin Kukla
+# ================================================================
+
+# --- Site metadata ------------------------------------------------
 title: "Kevin Kukla · Portfolio"
 description: "Instructional Design · Technical Writing · eLearning"
 
+# ↓↓↓ Step 1: tell Jekyll where the site will live on GitHub Pages
+url: "https://kjkukla.github.io"   # always your GitHub Pages root
+baseurl: "/kjkportfolio"           # repo name *with* leading slash
+                                    # (leave empty "" in a personal-site repo)
+
+# --- Theme and plugins -------------------------------------------
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
-  - jekyll-feed 
+  - jekyll-feed
   - jekyll-include-cache
 
-# ----------  add below  ----------
+# --- Custom collections ------------------------------------------
 collections:
   projects:
     output: true                  # each item gets its own page
@@ -14,14 +25,13 @@ collections:
 
 defaults:
   - scope:
-      path: ""
+      path: ""                    # applies to every file in the repo
       type: projects
     values:
       layout: single              # clean one-column layout
       author_profile: false
-# ----------  add above  ----------
 
-# (optional) show About + Portfolio in top nav
+# --- Navigation ---------------------------------------------------
 header_pages:
   - about.md
   - projects/index.md
