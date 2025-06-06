@@ -2,7 +2,7 @@
 #  _config.yml  ·  Minimal Mistakes + GitHub Pages · Kevin Kukla
 # ================================================================
 
-minimal_mistakes_skin: "air"    # or "aqua", "contrast", "dark", "dirt",
+minimal_mistakes_skin: "dirt"    # or "aqua", "contrast", "dark", "dirt",
                                 # "mint", "neon", "plum", "sunrise"
 
 # --- Site metadata ------------------------------------------------
