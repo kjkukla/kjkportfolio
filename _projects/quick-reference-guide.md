@@ -15,7 +15,6 @@ tags: [Technical Writing, Logic, Quick Reference]
 link:
   - label: "Download PDF"
     url: /assets/docs/qrg.pdf     # make sure the file lives here
-    icon: "fas fa-file-pdf"
 
 layout: single
 ---
