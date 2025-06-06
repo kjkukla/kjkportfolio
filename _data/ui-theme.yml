@@ -1,11 +1,10 @@
 # _data/ui-theme.yml
 palette:
-  primary:   "#002F6C"   # Higher-level headings & buttons
-  accent:    "#C62828"   # Links & active nav items
-  neutral:   "#F5F7FA"   # Card backgrounds
-  background:"#FFFFFF"   # Page background
+  primary:   "#002F6C"   # headings & buttons
+  accent:    "#C62828"   # links & active nav
+  neutral:   "#F5F7FA"   # card backgrounds
+  background: "#FFFFFF"  # page background   ← space added here
 
-# Optional social icons (Font Awesome names)
 social:
   - platform: linkedin
     url: "https://linkedin.com/in/kevin-kukla"
