@@ -2,8 +2,6 @@
 #  _config.yml  ·  Minimal Mistakes + GitHub Pages · Kevin Kukla
 # ================================================================
 
-minimal_mistakes_skin: "dirt"    # or "aqua", "contrast", "dark", "dirt",
-                                # "mint", "neon", "plum", "sunrise"
 # --- Site metadata ------------------------------------------------
 title: "Kevin Kukla · Portfolio"
 description: "Instructional Design · Technical Writing · eLearning"
@@ -18,6 +16,9 @@ remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+
+inimal_mistakes_skin: "dirt"    # or "aqua", "contrast", "dark", "dirt",
+                                # "mint", "neon", "plum", "sunrise"
 
 # --- Custom collections ------------------------------------------
 collections:
