@@ -17,7 +17,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-inimal_mistakes_skin: "dirt"    # or "aqua", "contrast", "dark", "dirt",
+inimal_mistakes_skin: "air"    # or "aqua", "contrast", "dark", "dirt",
                                 # "mint", "neon", "plum", "sunrise"
 
 # --- Custom collections ------------------------------------------
