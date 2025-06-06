@@ -1,9 +1,8 @@
-# _data/ui-theme.yml
 palette:
-  primary:   "#002F6C"   # headings & buttons
-  accent:    "#C62828"   # links & active nav
-  neutral:   "#F5F7FA"   # card backgrounds
-  background: "#FFFFFF"  # page background   ← space added here
+  primary: "#002F6C"
+  accent:  "#C62828"
+  neutral: "#F5F7FA"
+  background: "#FFFFFF"
 
 social:
   - platform: linkedin
