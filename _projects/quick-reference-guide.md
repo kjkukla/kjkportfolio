@@ -8,7 +8,8 @@ header:
   overlay_filter: 0.25
 links:
   - label: "Download PDF"
-    url:   /assets/docs/qrg.pdf          # place the PDF here
+    url:   /assets/docs/qrg.pdf
     icon:  "fas fa-file-pdf"
 layout: single
 ---
+<!-- Your narrative content starts here -->
