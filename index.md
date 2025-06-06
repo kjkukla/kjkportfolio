@@ -9,6 +9,7 @@ header:
     - label: "View Portfolio ▶︎"
       url:  "/projects/"
 excerpt: |
+---
   I design learning experiences that turn complex tech into crystal-clear
   stories. Scroll to see six recent projects.
 {% include feature_row id="feature_row" %}
