@@ -1,0 +1,12 @@
+/* --- Portfolio card background + hover ---------------------------------- */
+.archive__item {
+  background: #F5F7FA;       /* matches the neutral color in your palette */
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,.05);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.archive__item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0,0,0,.08);
+}
