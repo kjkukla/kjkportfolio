@@ -1,21 +1,28 @@
 ---
-# empty front-matter
+# front-matter so Jekyll processes this
 ---
 
-/* 1) pull in the theme and your chosen skin first */
+/* 0 ▸ pull in the theme + skin (already includes your dirt skin) */
 @import "minimal-mistakes";
 
-/* 2) your overrides AFTER the import so they win */
+/* 1 ▸ palette-matching card styles */
+$card-bg: #F5F7FA;             /* neutral from ui-theme.yml */
+$card-border: #002F6C;         /* primary */
+$card-hover: rgba(0, 47, 108, .10);
 
-/* --- Portfolio card background + hover ----------------------- */
 .archive__item {
-  background: #F5F7FA;        /* neutral grey */
-  border-radius: 0.5rem;
+  background: $card-bg;
+  border: 2px solid transparent;
+  border-radius: .5rem;
   padding: 1rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,.05);
-  transition: transform .15s ease, box-shadow .15s ease;
+  transition: transform .15s ease, border-color .15s ease,
+              box-shadow .15s ease;
 }
+
 .archive__item:hover {
   transform: translateY(-4px);
-  box-shadow: 0 6px 12px rgba(0,0,0,.08);
+  border-color: $card-border;
+  box-shadow: 0 6px 16px $card-hover;
 }
+
+.archive__item-title a:hover { color: $card-border; }   /* link hover */
