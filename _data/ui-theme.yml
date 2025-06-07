@@ -1,12 +1,11 @@
+social:
+  - platform: linkedin
+    url: "https://linkedin.com/in/kevin-kukla"
+  - platform: envelope         # ← Font Awesome "email" icon
+    url: "mailto:kevin@example.com"
+
 palette:
   primary: "#002F6C"
   accent:  "#C62828"
   neutral: "#F5F7FA"
   background: "#FFFFFF"
-
-social:
-  - platform: linkedin
-    url: "https://linkedin.com/in/kevin-kukla"
-  - platform: envelope         # ← Font Awesome "email" icon
-    url: "mailto:kkukla@gmail.com"
-
