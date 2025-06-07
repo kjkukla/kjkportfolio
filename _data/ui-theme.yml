@@ -1,6 +1,6 @@
 social:
   - platform: linkedin
-    url: "https://linkedin.com/in/kevin-kukla"
+    url: "www.linkedin.com/in/kjkukla"
   - platform: envelope         # ← Font Awesome "email" icon
     url: "mailto:kevin@example.com"
 
