@@ -63,6 +63,19 @@ highlighter: rouge
 permalink: pretty
 # Incremental build speeds local `jekyll serve` but is ignored by GitHub
 incremental: true
+
+########################################################################
+# 7 Social icons
+########################################################################
+footer:
+  links:
+    - label: LinkedIn
+      icon: "fab fa-linkedin"
+      url:  "https://linkedin.com/in/kevin-kukla"
+    - label: Email
+      icon: "fas fa-envelope"
+      url:  "mailto:kevin@example.com"
+
 #######################################################################
 # End
 #######################################################################
