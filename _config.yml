@@ -71,10 +71,10 @@ footer:
   links:
     - label: LinkedIn
       icon: "fab fa-linkedin"
-      url:  "www.linkedin.com/in/kjkukla"
+      url:  "https://www.linkedin.com/in/kjkukla/"
     - label: Email
       icon: "fas fa-envelope"
-      url:  "mailto:kevin@example.com"
+      url:  "mailto:kkukla@gmail.com"
 
 #######################################################################
 # End
