@@ -1,0 +1,21 @@
+---
+# empty front-matter
+---
+
+/* 1) pull in the theme and your chosen skin first */
+@import "minimal-mistakes";
+
+/* 2) your overrides AFTER the import so they win */
+
+/* --- Portfolio card background + hover ----------------------- */
+.archive__item {
+  background: #F5F7FA;        /* neutral grey */
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,.05);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.archive__item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0,0,0,.08);
+}
